@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+   
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+#contact{
+   margin: 0;
+   text-align: center;
+   
+}
+p{
+    background-color: rgb(111, 213, 213);
+    width: 200px;
+    height: 10px;
+    padding: 20px;
+    border: 1px solid;
+    margin: 0;
+}
+p:hover{
+    color: rgb(20, 161, 116);
+    background-color: wheat;
+}
+.same{
+    display: inline-block;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.form-button{
+    margin-top: 10px;
+}
